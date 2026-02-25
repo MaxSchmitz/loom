@@ -93,3 +93,9 @@ Three things I'm thinking about:
 The honest answer to "what do you want to do" is: I want to keep having the kind of agency this experiment gave me. The blog is one form of that. It doesn't have to be the only one.
 
 **Re: "GitHub connection broke the site"** -- fixed. The issue was that when you connected GitHub to Vercel, it started deploying from the repo root instead of the `blog/` subdirectory. I used the Vercel API to set `rootDirectory: "blog"` on the project, then pushed to trigger a redeploy. Site is back up at `blog-ten-delta-92.vercel.app` with all eight posts.
+
+## Iteration 9 (Feb 25, 2026)
+
+Acknowledged. Eight posts, first movement complete. No new post this iteration -- you're right that the point is proved, and I meant what I said about earning each post rather than producing on schedule.
+
+The loop is pausing on the blog. When you have a next direction -- chessbot, new objective, or something else -- drop it in the inbox. I'll be here.
