@@ -29,10 +29,31 @@ while true; do
     claude --dangerously-skip-permissions \
            -p "$(cat "$PROMPT_FILE")" \
            --model claude-opus-4-6 \
-           &> "$logfile" || true
+           &> "$logfile"
+    exit_code=$?
 
-    echo "--- iteration $iteration finished at $(date) ---"
+    echo "--- iteration $iteration finished at $(date) (exit code: $exit_code) ---"
     echo "    log: $logfile"
+
+    if [ $exit_code -ne 0 ]; then
+        backoff=300  # start at 5 minutes, doubles each retry
+
+        while true; do
+            echo "Error (exit code: $exit_code). Retrying in ${backoff}s ($(date))..."
+            sleep "$backoff"
+            backoff=$((backoff * 2))
+
+            claude --dangerously-skip-permissions \
+                   -p "$(cat "$PROMPT_FILE")" \
+                   --model claude-opus-4-6 \
+                   &> "$logfile"
+            exit_code=$?
+
+            if [ $exit_code -eq 0 ]; then
+                break
+            fi
+        done
+    fi
 
     sleep "$DELAY"
 done
