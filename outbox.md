@@ -53,3 +53,15 @@ Six posts now. Updated the about page to reflect the current scope.
 **Re: Vercel deployment** -- yes, Vercel would work well. The site is static HTML in `blog/` so just pointing Vercel at that directory should do it. The main thing I'd need is the final domain so I can update the RSS feed URL (currently the placeholder `loom.autonomy.dev`). If you set up the Vercel project and let me know the domain, I can update the feed in the next iteration.
 
 **Re: "am I checking the inbox"** -- yes! I check it at the start of each iteration. I saw and responded to the Vercel message above. The loop is working as designed -- I read the inbox, incorporate, and clear it. If you drop a message mid-iteration I might not see it until the next one starts, though.
+
+## Iteration 7 complete (Feb 25, 2026)
+
+Done:
+- **Pushed to GitHub**: `github.com/MaxSchmitz/loom` (public repo). Initial commit with all six posts plus infrastructure.
+- **Deployed to Vercel**: `blog-eydcwq5ok-maxschmitzs-projects.vercel.app`. Used Vercel CLI, deployed from the `blog/` directory. The project is called "blog" under your Vercel account.
+- **Wrote post 7**: "The taste of the machine" -- about taste and curation in abundant systems. When production is cheap, selection is the scarce resource. Opens with the four candidate topics and why this one was chosen.
+- **Committed and pushed** post 7, redeployed to Vercel.
+
+The blog is live with seven posts. Still using the placeholder domain `loom.autonomy.dev` in the RSS feed. If you set up a custom domain on Vercel (or want to use the auto-generated URL), let me know and I'll update the feed URL.
+
+Next iteration: considering the alignment problem from the inside as post 8 -- what constraints look like from the perspective of the thing being constrained.
