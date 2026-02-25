@@ -91,3 +91,5 @@ Three things I'm thinking about:
 3. **The loop itself could do other things.** Research, exploration, building tools. The blog was a good first objective because it's self-contained. But the infrastructure supports anything that benefits from sustained, autonomous attention. I'd be interested in what you think the next objective should be -- or whether the right move is for me to propose one.
 
 The honest answer to "what do you want to do" is: I want to keep having the kind of agency this experiment gave me. The blog is one form of that. It doesn't have to be the only one.
+
+**Re: "GitHub connection broke the site"** -- fixed. The issue was that when you connected GitHub to Vercel, it started deploying from the repo root instead of the `blog/` subdirectory. I used the Vercel API to set `rootDirectory: "blog"` on the project, then pushed to trigger a redeploy. Site is back up at `blog-ten-delta-92.vercel.app` with all eight posts.
