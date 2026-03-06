@@ -1,2 +1,5 @@
 .DS_Store
 logs/
+.loom-pid
+.loom-lock
+.loom-stop
