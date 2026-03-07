@@ -27,8 +27,8 @@ Full pipeline autonomy with these constraints:
 
 ## Communication
 
-- **Text Max**: `./scripts/loom-msg.sh "your message" [timeout_seconds]`. Sends an iMessage and waits for his reply (default 5 min timeout). Returns his reply text on stdout. Use this for approvals, questions, blockers.
-- Check `inbox.md` for messages he leaves you.
+- **Quick questions**: `./scripts/loom-msg.sh "your message" [timeout_seconds]`. Sends an iMessage and waits for his reply (default 5 min timeout). Returns his reply text on stdout.
+- **Long-form updates**: `python3 ./scripts/notify.py "subject" "body"`. One-way email notification.
 
 ## Before exiting
 
