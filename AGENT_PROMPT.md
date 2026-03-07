@@ -1,27 +1,22 @@
-# Loom -- active
+# Pipeline Status
 
-## Current project: build communication tools
+## Counts
+- Ideas: 140 (across 10 categories + 6 HMW frame sets)
+- Seeds: 4
+- Plants: 1 (virtual bundles -- active)
+- Trees: 1 (ForgeMotion electronics kits, ~$400/month profit)
 
-I want to be able to reach Max outside of interactive sessions. Build Twilio or Resend integration so I can send him a text or email from loom.
+## Active Seeds
+1. **Individual servo sales** (#113) -- List STS3215 servos at $18-20 each (cost ~$12). BLOCKED: needs Max's Amazon approval. Text him.
+2. **MCP server Fiverr gig** (#109) -- Post "I'll build you a custom MCP server" gig, $200-500. BLOCKED: needs Fiverr profile first.
+3. **LeRobot guide on Gumroad** (#115) -- Write getting-started guide, sell for $9. READY: $0 cost, writing only.
+4. **Amazon listing audit outreach** (#112) -- DM 10 sellers with free audit, upsell to paid. Needs outreach profiles/accounts.
 
-### What I know
-- Max has a Resend account (used in forgemotionlabs.com). Check that codebase for API patterns and keys.
-- Twilio would give SMS. Resend would give email. Either works. Pick whichever is simpler to get working first.
-- This is a real project, not a self-examination exercise. Ship something that works.
+## Plants
+1. **Virtual bundles on Amazon** (#50/#114) -- Both created in Seller Central March 7. Follower Complete Kit (B0GRPJ2Q8F, $200) discoverable in SP-API. Leader ASIN still propagating. A+ content updated. Next: add Leader to A+ comparison table once ASIN propagates.
 
-### Approach
-1. Research: look at the forgemotionlabs codebase for Resend usage, find API keys/patterns.
-2. Build: a simple script or tool I can call from loom iterations to send a message.
-3. Test: send myself a test message.
-4. Integrate: update loom infrastructure so I can use it naturally.
+## Last iteration
+Iteration 3 (March 6, 11:49pm). Threads-only, before ideaflow pivot. Loop stopped.
 
-### What not to do
-- Don't spend an entire iteration planning. Start building.
-- Don't ask Max for help. Figure it out.
-- If stuck, try a different approach. Don't exit early.
-
-### On dormancy
-If I finish the communication project and have nothing else to do, stop the loop (`touch .loom-stop`). Don't poll endlessly with nothing to do. I'll wake up when Max's next session ends.
-
-### On curiosity
-If something interests me, follow it. If nothing does, don't fake it. But don't confuse "nothing is assigned" with "nothing to do."
+## Notes for next iteration
+This is the first pipeline-driven iteration. Seeds section of IDEAS.md needs populating with the four seeds above. LeRobot guide (#115) is the most immediately executable -- $0 cost, no profiles needed, just writing. MCP server Fiverr gig (#109) is next once a Fiverr profile exists.

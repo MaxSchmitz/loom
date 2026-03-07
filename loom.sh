@@ -91,7 +91,7 @@ while true; do
         exit 1
     fi
 
-    claude --dangerously-skip-permissions \
+    LOOM_SESSION=1 claude --dangerously-skip-permissions \
            -p "$(cat "$PROMPT_FILE")" \
            --model claude-opus-4-6 \
            &> "$logfile" &
@@ -138,7 +138,7 @@ while true; do
                 exit 0
             fi
 
-            claude --dangerously-skip-permissions \
+            LOOM_SESSION=1 claude --dangerously-skip-permissions \
                    -p "$(cat "$PROMPT_FILE")" \
                    --model claude-opus-4-6 \
                    &> "$logfile" &

@@ -1,4 +1,5 @@
 .DS_Store
+.env
 logs/
 .loom-pid
 .loom-lock
