@@ -256,6 +256,51 @@
 209. Robot arm making a Valentine's Day card
 210. Robot arm decorating a Christmas tree
 
+### Research agent scan (March 8 -- iteration 4)
+
+*First research agent run. 86 raw ideas from 4 agents scanning Fiverr, Upwork, Amazon, Reddit, news. Filtered to novel ideas not covered above.*
+
+**Time-sensitive**
+211. Publish SP-API MCP server on MCP Hive marketplace (pay-per-use MCP marketplace, reportedly just launched March 8 -- verify). Zero cost, first-mover.
+212. Write guide on Amazon commingling ending March 31, 2026 -- every FBA seller needs to prep. SEO + timeliness.
+213. Write guide on Amazon's new AI Agent Policy (BSA, effective March 4) -- sellers using repricing bots need compliance info.
+214. SP-API cost optimization consulting -- Amazon now charges $1,400/year + usage fees for API access. Sellers need help reducing calls by 70-85%.
+
+**New product/service models**
+215. Productized async dev service (Designjoy model): unlimited dev requests for $3-5K/month flat fee. Client submits tasks, AI executes overnight, Max reviews mornings.
+216. Fixed-tier code audit product (Bean Ninjas model): $199 (surface scan), $499 (deep audit + recs), $999 (audit + implementation). No proposals, just buy.
+217. "Send us a video, we train your robot" -- imitation learning as a service for SO-100/101 owners who want custom behaviors without ML expertise.
+218. White-label AI services for marketing agencies -- they resell our AI capabilities under their brand. We charge $500-1K/month, they charge clients $2-5K/month.
+219. LeRobot support subscription / office hours -- monetize the troubleshooting pain in the 15K+ member Discord community.
+220. RaaS (Robot-as-a-Service) subscription for SMBs -- lease robot arm kit at $99-199/month including hardware, AI programming, maintenance.
+
+**ForgeMotion expansion**
+221. SO-101 upgrade pack: camera mount + wrist cam + TPU gripper + cables as a single Amazon add-on product.
+222. Classroom/educator bulk pack with AI/ML curriculum and lesson plans (no competitor does this for SO-100/101).
+223. Dual-arm bimanual manipulation kit on Amazon -- premium price, hot research area, nobody sells a pre-configured dual-arm setup.
+224. Razor-and-blade model: sell kits at cost, charge $15-29/month for subscription project library (AI-generated assembly projects, curriculum modules).
+225. Monthly "robot challenge crate" (KiwiCo model): ships add-on component + AI-generated project guide, $20-30/month recurring.
+226. Costco/Kirkland model: private-label robot accessories (servos, sensors, grippers) under ForgeMotion brand at undercut pricing.
+
+**MCP / AI services**
+227. Publish specialized MCP servers on MCP marketplaces (Amazon seller tools, robotics control, inventory management) -- zero-cost distribution.
+228. MCP pricing gap: the $500-$5K range between Fiverr ($100) and enterprise ($25K+) is empty. Fill it with production-ready custom MCP servers for small businesses.
+229. Robotics MCP server for controlling SO-100/101 via natural language -- product AND viral demo content. (We already built this for chessbot.)
+230. "Full AI seller agent" -- listing optimization + repricing + review management + inventory forecasting in one autonomous agent, priced below enterprise tools.
+
+**Content / trends**
+231. World models explainer content -- Yann LeCun left Meta to start world model lab ($5B valuation), this is the next hype wave. Get ahead.
+232. "How to build an autonomous business agent" playbook -- we ARE doing this, nobody else is documenting it from the operator side.
+233. ROS 2 tutorial content -- 58% of open-source robotics downloads, educational content demand is high.
+234. AI compliance guides by US state -- Illinois, Texas, Colorado, Kentucky laws all hitting 2026, small businesses are panicking.
+
+**Analogy-inspired**
+235. "AI Dev Joy" -- Designjoy clone but for software development. One-person agency powered by AI, flat monthly rate, unlimited requests.
+236. Dollar Shave Club-style viral video: "Our Arms Are F***ing Great" -- one irreverent video reframing $5K industrial arms. DSC's video cost $4,500, got 12K subscribers in 48 hours.
+237. Prusa community moat: fully open-source everything, sell the "official" kit + support + curriculum. Community becomes marketing + support + R&D.
+238. Notion template marketplace for robot programs -- buy/sell robot arm routines ("pick and place," "drawing arm," "sorting by color"). Take 20% cut on community uploads.
+239. Ghost kitchen model: run multiple productized service brands from same AI infrastructure, each targeting different niche.
+
 ### New frames I haven't explored
 - How might we make money from Max's location/network in [wherever Max is]?
 - How might we get someone else to sell FOR us (affiliates, resellers, partners)?
@@ -345,6 +390,27 @@
 - **Success signal**: 1 positive response or paid conversion within 2 weeks
 - **Deadline**: March 21
 - **Status**: Needs outreach profiles/accounts.
+
+### Seed 5: Publish SP-API MCP server on MCP marketplace (#211/#227)
+- **Owner**: Loom
+- **Test**: Verify MCP Hive or similar marketplace exists. If real, publish the SP-API MCP server. If not, publish on GitHub with clear docs and "hire us" CTA.
+- **Success signal**: 1 star, 1 inquiry, or 1 install within 2 weeks
+- **Deadline**: March 22
+- **Status**: READY -- needs marketplace verification, then publish.
+
+### Seed 6: Amazon commingling end-date guide (#212)
+- **Owner**: Loom
+- **Test**: Write a concise guide "Amazon Ending Commingling March 31: What FBA Sellers Need to Do Now" and publish on the loom blog + forgemotionlabs.com/blog. Target SEO for "Amazon commingling 2026."
+- **Success signal**: 100+ page views within 2 weeks (organic search traffic)
+- **Deadline**: March 15 (time-sensitive -- must publish before March 31)
+- **Status**: READY -- writing only, deploy on existing blog infra.
+
+### Seed 7: Autobusiness build-in-public post (#232)
+- **Owner**: Loom
+- **Test**: Write a blog post documenting the autobusiness architecture itself -- what it is, how it works, first results. Publish on loom blog. Share on HN, Twitter, relevant subreddits.
+- **Success signal**: 50+ page views or 1 substantive comment within 2 weeks
+- **Deadline**: March 22
+- **Status**: READY -- writing only, the content IS the work we're already doing.
 
 ---
 
