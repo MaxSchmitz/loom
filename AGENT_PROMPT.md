@@ -1,22 +1,33 @@
 # Pipeline Status
 
+## Architecture
+Three-stage autobusiness: Generate -> Test -> Optimize.
+Current default: **Stage 2 (Test)** -- 210 ideas exist, testing is the bottleneck.
+
 ## Counts
-- Ideas: 140 (across 10 categories + 6 HMW frame sets)
-- Seeds: 4
-- Plants: 1 (virtual bundles -- active)
-- Trees: 1 (ForgeMotion electronics kits, ~$400/month profit)
+- Ideas: 210 (10 categories + 70 content ideas)
+- Seeds: 4 (1 ready, 3 blocked)
+- Plants: 1 (virtual bundles -- active, waiting on ASIN propagation)
+- Trees: 1 (ForgeMotion kits, ~$400/month profit)
 
 ## Active Seeds
-1. **Individual servo sales** (#113) -- List STS3215 servos at $18-20 each (cost ~$12). BLOCKED: needs Max's Amazon approval. Text him.
-2. **MCP server Fiverr gig** (#109) -- Post "I'll build you a custom MCP server" gig, $200-500. BLOCKED: needs Fiverr profile first.
-3. **LeRobot guide on Gumroad** (#115) -- Write getting-started guide, sell for $9. READY: $0 cost, writing only.
-4. **Amazon listing audit outreach** (#112) -- DM 10 sellers with free audit, upsell to paid. Needs outreach profiles/accounts.
+1. **Individual servo sales** (#113) -- BLOCKED: needs Max's Amazon approval
+2. **MCP server Fiverr gig** (#109) -- BLOCKED: needs Fiverr profile
+3. **LeRobot guide on Gumroad** (#115) -- READY: $0 cost, writing only
+4. **Amazon listing audit outreach** (#112) -- Needs outreach accounts
 
-## Plants
-1. **Virtual bundles on Amazon** (#50/#114) -- Both created in Seller Central March 7. Follower Complete Kit (B0GRPJ2Q8F, $200) discoverable in SP-API. Leader ASIN still propagating. A+ content updated. Next: add Leader to A+ comparison table once ASIN propagates.
+## This Iteration
+First iteration under autobusiness architecture. Three priorities:
 
-## Last iteration
-Iteration 3 (March 6, 11:49pm). Threads-only, before ideaflow pivot. Loop stopped.
+1. **Promote 3-5 more ideas to seeds** with concrete test strategies that don't require accounts you don't have. Pick ideas you can test RIGHT NOW -- landing pages, content, direct outreach.
+2. **Execute one seed.** The LeRobot guide is ready. Or pick a new seed that's faster to test.
+3. **Run research agents** (Stage 1) to refresh inputs. The 210 ideas were generated from memory, not from scanning what's happening NOW.
 
-## Notes for next iteration
-This is the first pipeline-driven iteration. Seeds section of IDEAS.md needs populating with the four seeds above. LeRobot guide (#115) is the most immediately executable -- $0 cost, no profiles needed, just writing. MCP server Fiverr gig (#109) is next once a Fiverr profile exists.
+## Last Iteration
+Iteration 3 (March 6). Pre-autobusiness architecture. Loop was stopped.
+
+## Notes
+- Blog exists at `blog/` -- deployed on Vercel. Document the autobusiness journey.
+- Content that sells robot kits (ideas 141-210) is a new category. Some of these are testable immediately -- film/photograph what exists and post it.
+- The big realization: distribution isn't a money problem anymore. It's a content problem. Short-form video of robots doing human things is the distribution channel.
+- Research agents are in `agents/`. This is the first time using them -- establish the baseline ideaflow rate.

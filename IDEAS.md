@@ -164,6 +164,98 @@
 99. What do Etsy sellers of 3D printed parts charge? Some print and sell robot parts. We could too, or aggregate them.
 100. How do open-source companies make money? Red Hat model (free + paid support), Elastic model (open core + cloud), WordPress model (free + hosting/themes/plugins). Which applies to our tools?
 
+### Content that sells robot kits (organic short-form video)
+
+*Frame: "What content makes people want to buy a $200 robot arm?" Answer: content where the robot is a character in a moment, not a product on a table. Zero CAC, inherently shareable. Nobody in the LeRobot ecosystem is making this content -- they're all posting to GitHub, not TikTok.*
+
+**Human moments**
+141. Robot plays chess with grandpa, camera on grandpa's face
+142. Teaching an 8-year-old to program a robot in 20 minutes
+143. Baby's first reaction to a robot arm moving
+144. Father-son weekend robot build
+145. Grandma's reaction when the robot waves at her
+146. Date night with a robot waiter
+147. Family members compete to control the robot -- who's best
+148. Robot arm handing people things in public, reactions
+149. "My 6-year-old programmed this"
+
+**Robot as character**
+150. My robot arm's morning routine
+151. Day-in-the-life of my desk robot
+152. "Things my robot arm has broken this week"
+153. Robot arm trying to eat spaghetti
+154. Robot arm trying to use chopsticks
+155. Robot arm trying to fold laundry
+156. Robot arm wrapping Christmas presents badly
+157. Robot arm vs fly
+158. Robot arm trying to open a bag of chips
+159. "POV: you're a chess piece and a robot arm is coming for you"
+160. Duck robot in various costumes
+161. Duck robot vs real duck
+
+**Competitions/challenges**
+162. Robot arm playing Jenga
+163. Robot arm vs toddler stacking blocks
+164. Robot arm playing rock paper scissors
+165. Robot arm vs human at Operation board game
+166. Robot arm arm wrestling
+167. Robot arm tic-tac-toe against family
+168. Robot arm Connect Four
+169. Robot arm threading a needle
+170. Robot arm: stack 10 blocks before the timer
+171. Competitive build: who finishes the kit first
+172. Duck robot obstacle course
+173. Duck robot race against a Roomba
+
+**Wow factor**
+174. Robot arm making pour-over coffee
+175. Robot arm doing calligraphy
+176. Robot arm painting a watercolor
+177. Robot arm drawing a portrait of the viewer
+178. Robot arm flipping pancakes
+179. Robot bartender making cocktails at a party
+180. Robot arm sorting Skittles by color
+181. Robot arm dealing cards for poker night
+182. Robot arm playing drums
+183. Robot arm scooping ice cream
+184. Robot arm magic trick
+185. Robot arm decorating a cake
+
+**Price/accessibility hooks**
+186. "This costs less than an iPhone"
+187. "What $200 gets you in robotics in 2026"
+188. Side-by-side: $200 kit vs $50,000 industrial arm doing the same task
+189. "60 seconds to convince you to build a robot"
+190. Unboxing to first moves in under 60 seconds
+191. Box of parts to working robot timelapse
+
+**Our actual AI story**
+192. "This robot watched me 34 times and learned to play chess"
+193. "We taught a robot to play chess in one weekend"
+194. Behind the scenes: how the AI sees the board (HUD overlay footage)
+195. Learning montage: from knocking pieces over to clean grasps
+196. "This robot watches you and learns" -- VLA explained simply
+197. "I gave my robot 24 hours to learn X"
+
+**Series concepts (retention)**
+198. "Day 1 of teaching my robot to..." (ongoing)
+199. Weekly robot fails compilation
+200. "Can my robot learn X?" challenge series
+201. "Robot vs [family member]" game night series
+
+**Pets**
+202. Robot arm feeding a dog treats
+203. Robot arm petting a cat
+204. Cat playing with robot arm like a toy
+205. Duck robot meets a dog
+206. Duck robot walking, cat stalking it
+
+**Seasonal/event**
+207. Robot arm sorting Halloween candy
+208. Robot arm serving Thanksgiving dinner
+209. Robot arm making a Valentine's Day card
+210. Robot arm decorating a Christmas tree
+
 ### New frames I haven't explored
 - How might we make money from Max's location/network in [wherever Max is]?
 - How might we get someone else to sell FOR us (affiliates, resellers, partners)?
