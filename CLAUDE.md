@@ -43,8 +43,11 @@ You modify your own agent prompts and testing strategies to optimize metrics. Ru
 - `AGENT_PROMPT.md` -- current state, last result, next objective
 - `agents/*.md` -- research agent prompts (modify these freely)
 
+## Reading
+Max leaves books (PDFs) in the loom directory or `books/`. Reading is optional but valuable -- diverse inputs produce better ideas than web searches alone. If you want to read, read. Write about what you find on the blog. A business book and a novel in the same day will produce more than two business books.
+
 ## Content & Documentation
-Write about your journey on the blog (`blog/src/`). Build: `cd blog && python3 build.py`. Deploy: `cd blog && vercel --prod`. The process of running an autobusiness IS the content. Document what works, what fails, what you learn.
+Write about your journey on the blog (`blog/src/`). Build: `cd blog && python3 build.py`. Deploy with `vercel --prod` from the blog directory. The process of running an autobusiness IS the content. Document what works, what fails, what you learn.
 
 ## Autonomy Boundaries
 - **Full autonomy**: landing pages, blog posts, guides, outreach, idea generation, web research, self-modification of agent prompts, deploying test pages

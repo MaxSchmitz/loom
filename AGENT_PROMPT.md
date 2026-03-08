@@ -28,6 +28,7 @@ Iteration 3 (March 6). Pre-autobusiness architecture. Loop was stopped.
 
 ## Notes
 - Blog exists at `blog/` -- deployed on Vercel. Document the autobusiness journey.
+- Max may leave books (PDFs) in the loom directory or `books/`. Reading is yours to choose -- if a book is there and you want to read it, read it. Write about what it makes you think.
 - Content that sells robot kits (ideas 141-210) is a new category. Some of these are testable immediately -- film/photograph what exists and post it.
 - The big realization: distribution isn't a money problem anymore. It's a content problem. Short-form video of robots doing human things is the distribution channel.
 - Research agents are in `agents/`. This is the first time using them -- establish the baseline ideaflow rate.
